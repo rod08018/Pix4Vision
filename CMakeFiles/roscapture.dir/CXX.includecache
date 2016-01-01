@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/david/Desktop/Tesis/roscapture.cpp
+opencv2/opencv.hpp
+-
+opencv2/video/tracking.hpp
+/home/david/Desktop/Tesis/opencv2/video/tracking.hpp
+opencv2/imgproc/imgproc.hpp
+/home/david/Desktop/Tesis/opencv2/imgproc/imgproc.hpp
+opencv2/videoio/videoio.hpp
+/home/david/Desktop/Tesis/opencv2/videoio/videoio.hpp
+opencv2/highgui/highgui.hpp
+/home/david/Desktop/Tesis/opencv2/highgui/highgui.hpp
+iostream
+-
+ctype.h
+-
+unistd.h
+-
+vector
+-
+

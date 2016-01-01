@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( roscapture )
+find_package( OpenCV REQUIRED )
+add_executable( roscapture roscapture.cpp )
+target_link_libraries( roscapture  ${OpenCV_LIBS} )
